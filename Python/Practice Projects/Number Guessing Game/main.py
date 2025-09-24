@@ -23,5 +23,5 @@ while True:
             print("Invalid Input")
 
     playAgain = input("Want to play again (Yes/No): ").lower().strip()
-    if playAgain == "no":
+    if playAgain != "yes":
         break
